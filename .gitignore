@@ -26,10 +26,12 @@ share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+*.sqlite3
 
 # Installer logs
 pip-log.txt
 pip-delete-this-arg.txt
+*.log
 
 # Unit test / coverage reports
 .coverage
