@@ -10,4 +10,4 @@ I'm excited to learn and grow, and I welcome any feedback or suggestions from mo
 *   **Learning Notes:** My personal notes and summaries of what I'm learning.
 *   **Small Projects:** As I gain confidence, I'll start working on small, beginner-friendly projects.
 
-Thank you for visiting my repository!
+Thank you for visiting my repository on GitHub!
