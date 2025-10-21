@@ -31,21 +31,21 @@ To practice with user input, basic arithmetic operations, and f-string formattin
 This Python script determines if a user is allowed to drive based on their age and whether they have a driver's license.
 
 **Purpose:**
-To illustrate basic conditional logic (`if`, `elif`, `else`) and handling multiple user inputs.
+To illustrate conditional logic and the use of functions to structure code.
 
 **How it works:**
 
-1. It prompts the user to enter their age and if they have a driver's license.
-2. It uses `if-elif-else` statements to check if the user is 18 or older and has a license.
-3. It prints an appropriate message to the user based on these conditions.
+1.  It prompts the user for their age and, if applicable, for their driver's license status.
+2.  A function `check_driving_eligibility()` contains the core logic to evaluate the user's status.
+3.  The main script calls this function with the user's data and prints the returned message.
 
 **Key Concepts Demonstrated:**
 
+- Defining and calling functions.
 - `input()` function for user interaction.
-- `int()` function for type conversion.
-- `.strip()` and `.lower()` string methods.
+- `int()` for type conversion and string methods (`.strip()`, `.lower()`).
 - Conditional statements (`if`, `elif`, `else`).
-- Logical operators (`and`).
+- Returning values from a function.
 
 ---
 
@@ -73,24 +73,24 @@ To demonstrate the use of the `math` module and its functions.
 
 ## `pizza_calculator.py`
 
-This Python script calculates the cost per person for a pizza order, including a tip and a possible discount.
+This Python script calculates the cost per person for a pizza order, including a dynamic tip and a possible discount.
 
 **Purpose:**
-To demonstrate more complex conditional logic and calculations.
+To demonstrate breaking down a problem into smaller functions and handling complex conditional logic.
 
 **How it works:**
 
-1. It takes the pizza price and number of people as input.
-2. It determines the tip percentage based on the number of people.
-3. It calculates the total amount, and applies a discount if the order is over 50 EUR for a group of 4 or more.
-4. It calculates and prints the price per person.
+1.  It takes the pizza price and number of people as input.
+2.  A function `determine_tip_percentage()` decides the tip based on the group size.
+3.  A function `calculate_total_bill()` computes the final bill, including the tip and a conditional discount for large groups.
+4.  The main script orchestrates the calls to these functions and prints the final price per person.
 
 **Key Concepts Demonstrated:**
 
-- `input()` for user input.
-- `float()` and `int()` for type conversion.
+- Decomposing a problem into multiple functions (`determine_tip_percentage`, `calculate_total_bill`).
+- `input()` for user input and type conversion (`float()`, `int()`).
 - Complex conditional logic with `if`, `elif`, `else`.
-- Arithmetic calculations.
+- Returning values from functions and passing them to others.
 - Formatted output using f-strings.
 
 ---
