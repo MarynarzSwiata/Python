@@ -7,11 +7,7 @@ inventory = [
 ]
 
 def find_items_to_reorder(products_list, min_threshold):
-    items_to_reorder = []
-    for product in products_list:
-        if product["stock"] < min_threshold:
-            items_to_reorder.append({"name": product["name"], "stock": product["stock"]})
-    return items_to_reorder
+    return [{"name": product["name"], "stock": product["stock"]} for product in products_list if product["stock"] < min_threshold]
 
 min_inventory = int(input("Enter the minimum inventory threshold: "))
 
