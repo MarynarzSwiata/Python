@@ -1,0 +1,22 @@
+[
+    {
+        "id": 101,
+        "name": "Classic T-Shirt",
+        "stock": 20
+    },
+    {
+        "id": 102,
+        "name": "Leather Wallet",
+        "stock": 5
+    },
+    {
+        "id": 103,
+        "name": "Bluetooth Headphones",
+        "stock": 8
+    },
+    {
+        "id": 104,
+        "name": "Coffee Mug",
+        "stock": 35
+    }
+]
