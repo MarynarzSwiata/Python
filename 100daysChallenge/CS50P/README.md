@@ -19,6 +19,12 @@ This repository documents my journey and progress through Harvard University's C
 
 ---This repository will also serve as a personal notebook, with all my notes and code examples maintained in Jupyter notebooks for better organization and interactivity.
 
+**Movies completed Completed:**
+
+<div style="border-left: 4px solid #4CAF50; padding: 10px; background-color: #e8f5e9;">
+<b>✅ CS50P - Introduction </b> - https://www.youtube.com/watch?v=OvKCESUCWII
+</div>
+
 ## Day 1: Getting Started with Python
 
 **Date:** 2025-10-31
